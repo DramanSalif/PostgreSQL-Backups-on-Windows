@@ -1,0 +1,69 @@
+# ----------------------------
+# Secrets, credentials & pgpass
+# ----------------------------
+**/pgpass.conf
+**/.pgpass
+**/pgpass
+.env
+.env.*
+secrets*
+credentials*
+*.key
+*.pem
+*.pfx
+
+# ----------------------------
+# Backups, dumps & logs
+# ----------------------------
+*.dump
+*.sql
+*.backup
+backup_log.txt
+edb/
+logs/
+*.log
+*.log.*
+
+# ----------------------------
+# Quarto / build artifacts
+# ----------------------------
+.quarto/
+_quarto/
+_site/
+_render/
+output/
+*.html
+*.pdf
+
+# ----------------------------
+# OS files
+# ----------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ----------------------------
+# Editors / IDEs
+# ----------------------------
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.dbmdl
+
+# ----------------------------
+# Temp / swap files
+# ----------------------------
+*.tmp
+*.temp
+~$*
+*.swp
+
+# ----------------------------
+# Language/runtime caches
+# ----------------------------
+__pycache__/
+*.pyc
+node_modules/
