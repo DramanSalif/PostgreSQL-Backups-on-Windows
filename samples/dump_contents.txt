@@ -1,0 +1,39 @@
+;
+; Archive created at 2025-10-06 07:17:34
+;     dbname: analyticsscdb_sample
+;     TOC Entries: 28
+;     Compression: gzip
+;     Dump Version: 1.15-0
+;     Format: CUSTOM
+;     Integer: 4 bytes
+;     Offset: 8 bytes
+;     Dumped from database version: 16.10
+;     Dumped by pg_dump version: 16.10
+;
+;
+; Selected TOC Entries:
+;
+216; 1259 262163 TABLE public customers postgres
+215; 1259 262162 SEQUENCE public customers_id_seq postgres
+4868; 0 0 SEQUENCE OWNED BY public customers_id_seq postgres
+220; 1259 262183 TABLE public orders postgres
+219; 1259 262182 SEQUENCE public orders_id_seq postgres
+4869; 0 0 SEQUENCE OWNED BY public orders_id_seq postgres
+218; 1259 262174 TABLE public products postgres
+217; 1259 262173 SEQUENCE public products_id_seq postgres
+4870; 0 0 SEQUENCE OWNED BY public products_id_seq postgres
+4699; 2604 262166 DEFAULT public customers id postgres
+4701; 2604 262186 DEFAULT public orders id postgres
+4700; 2604 262177 DEFAULT public products id postgres
+4857; 0 262163 TABLE DATA public customers postgres
+4861; 0 262183 TABLE DATA public orders postgres
+4859; 0 262174 TABLE DATA public products postgres
+4871; 0 0 SEQUENCE SET public customers_id_seq postgres
+4872; 0 0 SEQUENCE SET public orders_id_seq postgres
+4873; 0 0 SEQUENCE SET public products_id_seq postgres
+4704; 2606 262172 CONSTRAINT public customers customers_email_key postgres
+4706; 2606 262170 CONSTRAINT public customers customers_pkey postgres
+4710; 2606 262189 CONSTRAINT public orders orders_pkey postgres
+4708; 2606 262181 CONSTRAINT public products products_pkey postgres
+4711; 2606 262190 FK CONSTRAINT public orders orders_customer_id_fkey postgres
+4712; 2606 262195 FK CONSTRAINT public orders orders_product_id_fkey postgres
