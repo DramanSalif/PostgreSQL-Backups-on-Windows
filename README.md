@@ -119,7 +119,7 @@ notepad "C:\edb\backup_log.txt"
 - Please do not add any file containing live credentials.
 
 ## License
-- MIT License — see 'LICENSE' file
+- MIT License — see `LICENSE` file
 
 ## Author / Contact
 - Dramane B. Salifou — dsalifou@gmail.com / d.salifou298@mybvc.ca / dsalifou@hotmail.com
